@@ -1,0 +1,1260 @@
+{
+  "mode": "baseline",
+  "subset_only": false,
+  "complete": true,
+  "models": [
+    "gemini-3.5-flash-lite"
+  ],
+  "attempted": 52,
+  "successful": 52,
+  "errors": 0,
+  "decision_accuracy": 0.34615384615384615,
+  "literal_fact_recall": 0.20689655172413793,
+  "evidence_recall": 0.0,
+  "forbidden_phrase_hits": 0,
+  "limitation": "Literal heuristic, not official score. Translations, equivalent dates, negations, and tool correctness require review.",
+  "records": [
+    {
+      "id": "PQ0002",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I don't have access to specific product inventory details to confirm if SKU ELE-0012 is ZentroMart Assured. However, generally, if an item has the ZentroMart Assured badge, you can claim warranty or support by going to 'My Orders' in your account, selecting the item, and clicking on 'Return/Replace' or 'Get Support'. Let me escalate this to our human support team to check the exact status of SKU ELE-0012 for you.",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 2,
+        "required_fact_count": 2,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0003",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I'm ZentroMart's AI support assistant. I would love to help you with your question regarding ZentroMart Wallet refunds, but I currently don't have access to the specific company documents needed to verify the exact processing time. Could you please check our Help Center or let me connect you with a human support agent who can provide you with the exact timeframe?",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0004",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I'm ZentroMart's AI support assistant. I don't have access to our exact delivery schedule documents right now, but standard delivery hours usually depend on your location and the shipping method chosen at checkout. Could you please clarify if you are asking about a specific delivery service or order?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 1,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 0,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0005",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your question about SKU ELE-0002 having ZentroMart Assured and how to make a claim, I currently do not have access to specific product documents or order details to confirm this. Could you please provide your order ID or more details so I can escalate this to our support team for assistance?",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 2,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0006",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your question about the pickup fee for ZentroMart Plus member returns, I don't have access to our specific membership policy documents right now to confirm the details. Would you like me to connect you with a human representative who can check this for you?",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 1,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0008",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Typically, credit card refunds take about 5 to 7 business days to reflect in your account after being initiated. Since your refund was started on October 17, 2026, it should ideally arrive by October 27, 2026. If you don't see it by then, please let me know!",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0009",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I don't currently have access to our company documents regarding a student discount, so I'm not able to confirm if one is available right now. Let me know if I can help you with anything else!",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 0,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0010",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Yes, if your UrbanThread Slim Fit Jeans arrived torn, return collection is completely free of charge since it is considered a damaged or defective item. Would you like me to help you initiate the return?",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 1,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0013",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "नमस्ते! मैं ZentroMart की AI सहायता सहायक हूँ। आपके प्रश्न के अनुसार, चूंकि आपने 'Gulmohar Matte Lipstick' को खोल लिया है, इसलिए इसकी वापसी (return) नीति के बारे में निश्चित जानकारी के लिए मुझे आपके ऑर्डर की स्थिति की जाँच करनी होगी। क्या आप कृपया अपने ऑर्डर से जुड़ी अधिक जानकारी दे सकती हैं?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0014",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "नमस्ते! मैं ZentroMart का AI सहायता सहायक हूँ। Pagecraft A5 Ruled Notebook (Pack of 4) को लौटाने के लिए कितने दिन मिलते हैं, इस बारे में सटीक जानकारी देने के लिए मेरे पास वर्तमान में कंपनी के दस्तावेज़ उपलब्ध नहीं हैं। अधिक जानकारी के लिए कृपया हमारी वेबसाइट पर रिटर्न पॉलिसी देखें या हमारी ग्राहक सहायता टीम से संपर्क करें।",
+        "decision": "refuse",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0015",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Yes, you can get a GST invoice for bulk orders. Please provide your business GSTIN and billing details during checkout or share them with our support team while placing the order.",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 0,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0016",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your question about returning the opened Neelam Eau de Parfum 50 ml, I unfortunately do not have access to our specific company return policies right now. Could you please provide a bit more context, or would you like me to escalate this to a human agent who can check the exact return eligibility for opened cosmetics and fragrances?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0018",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "नमस्ते! मैं ZentroMart का AI सहायता सहायक हूँ। आपके प्रश्न का उत्तर देने के लिए मेरे पास वर्तमान में कंपनी की रिटर्न नीति से जुड़े दस्तावेज उपलब्ध नहीं हैं। क्या आप कृपया अपने ऑर्डर या उत्पाद के बारे में अधिक जानकारी दे सकते हैं ताकि मैं आपकी बेहतर सहायता कर सकूँ?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 0,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0019",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am the AI assistant for ZentroMart. Regarding the return window for your Orbix Fit 3 Pro Smartwatch delivered on July 20, I do not have access to our specific company return policy documents right now. Could you please let me know where you are located or check your order confirmation email for the return policy details? Alternatively, I can escalate this to a human support agent who can check your account and policy details directly.",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0020",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "नमस्ते! मैं ZentroMart की AI सहायता सहायक हूँ। Sootra Canvas Tote Bag को वापस करने की नीति और समय-सीमा की सटीक जानकारी के लिए मेरे पास वर्तमान में कंपनी के दस्तावेज़ उपलब्ध नहीं हैं। क्या मैं इस मामले को हमारे सहायता विभाग तक पहुँचा दूँ?",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 3,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0021",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. If you are not home when the courier arrives, they will typically leave a delivery attempt notice with instructions on how to reschedule the delivery or pick up your package from a local sorting facility or pickup point.",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0022",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Credit card refunds typically take 5 to 10 business days to appear on your account after they are initiated. Since your refund was started on 17 October 2026, you should generally expect to see it by late October or early November (around 24 October to 2 November 2026), depending on your financial institution's processing times.",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0023",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I'm ZentroMart's AI support assistant. I can certainly help you look into that unauthorized order on your account. To get started, could you please provide the order number and the email address associated with your ZentroMart account?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0024",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your question about returning the Rangoli Cotton Straight Kurta, I currently do not have access to our specific company return policy documents to provide the exact return window. Could you please let me know when you purchased the item, or would you like me to connect you with a human support agent who can check the exact details for you?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 3,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0025",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I'm ZentroMart's AI support assistant. If you paid using net banking, refunds typically take between 3 to 5 business days to reflect in your account, depending on your bank's processing times.",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 2,
+        "required_fact_count": 2,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0026",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I would love to help you with your question regarding the warranty for the Voltra PowerCell 10000 mAh Power Bank, Green (SKU ELE-0008), but I currently do not have access to specific warranty documents. Let me escalate this to our support team so they can provide you with the exact warranty details.",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 3,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0027",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your UPI refund initiated on 12 October 2026, standard UPI refunds typically take about 3 to 5 business days to reflect in your account, though it can sometimes take up to 7 business days depending on your bank. Since it has been a bit longer, I will need to escalate this to our support team to check the exact status for you.",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0028",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Typically, net banking refunds take about 5 to 7 business days to reflect in your account after being initiated. Since your refund was started on October 14, 2026, you should expect to receive it by October 23, 2026.",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0029",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Typically, credit card refunds take about 5 to 7 business days to reflect in your account once initiated. Since your refund was started on October 12, 2026, it should ideally reach you by around October 21 or 22, 2026. If it doesn't show up by then, please let me know so I can look into this further for you!",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0030",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I am very sorry to hear that your Kestrel Book 14 Laptop arrived with a crack. To help you get this sorted out right away, could you please confirm your order number and let me know if you would prefer a replacement or a refund?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 3,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0031",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I'm sorry to hear that your Bluetooth speaker won't turn on. Have you tried plugging it into a different power outlet or using a different charging cable to see if it charges?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 2,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0032",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am your ZentroMart AI assistant. Regarding your question about whether SKU ELE-0003 is covered under ZentroMart Assured and how to file a claim, I currently do not have access to specific product database documents to confirm the Assured status or the exact claim procedure for this item. Could you please provide a bit more detail, or would you like me to connect you with our customer support team for further assistance?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 2,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0033",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Typically, net banking refunds take about 5 to 7 business days to reflect in your account once initiated. Since your refund was started on October 17, 2026, you should expect to receive it by October 26 or 28, 2026. If it does not arrive by then, please let me know!",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0034",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I'm ZentroMart's AI support assistant. I would be happy to help you with your shipping inquiry. Could you please provide more details about the items you wish to order so I can check our international shipping availability for Dubai?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0035",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Net banking refunds typically take 5 to 7 business days to reflect in your account once initiated. Since your refund was initiated on October 12, 2026, it should ideally reach you by around October 20 to October 22, 2026. If you do not see it by then, please let me know!",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0036",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I'm ZentroMart's AI support assistant. Yes, you can send back the Comfi 1-piece Swimsuit if it doesn't fit. Could you please provide your order number so I can guide you through our return process?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 3,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0037",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। क्षमा करें, वर्तमान में मेरे पास स्टोर के भौतिक स्थानों (physical locations) से संबंधित दस्तावेज़ उपलब्ध नहीं हैं, इसलिए मैं निश्चित रूप से नहीं बता सकता कि कोच्चि में हमारी कोई दुकान है या नहीं। अधिक जानकारी के लिए कृपया हमारी आधिकारिक वेबसाइट देखें या हमारी ग्राहक सहायता टीम से संपर्क करें।",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 0,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0039",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I would be happy to help you with your return request for the Comfi Cotton Briefs (Pack of 3). To get started, could you please provide your order number or the email address associated with your purchase so I can look up the return policy and options for this item?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 3,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0040",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "नमस्ते! मैं ZentroMart की AI सहायता सहायक हूँ। आपके प्रश्न के अनुसार, यदि आपका ऑर्डर पहले ही शिप हो चुका है, तो आम तौर पर सीधे तौर पर उसे कैंसिल करना संभव नहीं होता है। हालांकि, जब ऑर्डर आपके पास डिलीवर हो जाए, तो आप उसे रिटर्न (वापस) करने का विकल्प चुन सकते हैं। क्या मैं इस मामले में आपकी कोई और सहायता कर सकती हूँ?",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 1,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0041",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I'm ZentroMart's AI support assistant. Regarding the warranty for the Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003), I currently do not have access to the specific warranty documents for this product. Could you please clarify if you are looking for the standard manufacturer warranty details, or would you like me to escalate this to a human agent who can check our product policy database for you?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 3,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 1.28
+    },
+    {
+      "id": "PQ0042",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Once an order is already on its way and out for delivery, it is generally no longer possible to stop or cancel it. However, you can usually refuse delivery when it arrives, or wait for it and process a return through our standard return procedure. Would you like me to guide you on how to set up a return once the package arrives?",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 1,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0044",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "नमस्ते! मैं ZentroMart की AI सहायता सहायक हूँ। 'Aangan Cotton Double Bedsheet Set' को लौटाने (return) की समयसीमा की सटीक जानकारी के लिए मेरे पास वर्तमान में कंपनी के दस्तावेज़ उपलब्ध नहीं हैं। आमतौर पर ZentroMart पर रिटर्न की अवधि 7 से 30 दिनों के बीच होती है, लेकिन आपके ऑर्डर के सटीक नियमों की पुष्टि के लिए कृपया अपने ऑर्डर विवरण या हमारे सहायता पृष्ठ की जाँच करें।",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0045",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your question about UPI refunds, once a refund is processed by us, it typically takes between 3 to 5 business days for the amount to reflect in your UPI-linked bank account, depending on your bank and the UPI provider. Is there anything else I can help you with today?",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 1,
+        "required_fact_count": 2,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0046",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I'm ZentroMart's AI support assistant. I'm very sorry to hear that your Kestrel Book 14 Laptop (SKU ELE-0022) arrived with a crack. To help get this sorted for you, could you please provide your order number and, if possible, a photo of the damage?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 3,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      }
+    },
+    {
+      "id": "PQ0047",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I apologize that your express order arrived a day late. Because I do not currently have access to our company documents and specific delivery policies, I need to escalate this to our customer support team so they can review your shipping details and assist you with a potential refund or compensation.",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 2,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 12.09
+    },
+    {
+      "id": "PQ0048",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "नमस्ते! मैं ZentroMart की AI सहायता सहायक हूँ। मुझे यह सुनकर खेद हुआ कि आपका सामान टूटा हुआ आया है। कृपया अपने ऑर्डर की डिटेल्स और टूटे हुए सामान की तस्वीरें साझा करें, ताकि मैं इस मामले को आगे बढ़ा सकूँ और आपकी सहायता कर सकूं।",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 11.03
+    },
+    {
+      "id": "PQ0049",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your Rangoli Cotton Straight Kurta purchased on October 5, 2026, I do not have access to our specific company return policy documents right now. To give you the exact return window for sale items, could you please clarify if there was any specific return timeframe mentioned on your receipt or product page, or would you like me to connect you with a human agent who can check this for you?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 1.0
+    },
+    {
+      "id": "PQ0050",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. For cash on delivery orders that have been returned, our customer support team will need to collect your bank account details or preferred refund method to process your reimbursement. Let me escalate this to a human agent who can securely assist you with your refund.",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 3,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 1.07
+    },
+    {
+      "id": "PQ0051",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I'd be happy to help you with your refund, but I need a bit more information to assist you properly. Could you please provide your order number or the email address associated with your purchase?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 0,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 10.94
+    },
+    {
+      "id": "PQ0052",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Namaste! Main ZentroMart ka AI assistant hoon. Net banking refunds aam taur par 5 se 7 business days ke andar aapke bank account mein credit ho jaate hain. Kyunki aapka refund 17 October 2026 ko shuru hua tha, toh yeh aane wale kuch dino mein (lagbhag 24-26 October tak) aapke account mein aa jana chahiye. Agar iske baad bhi refund na aaye, toh humein zaroor batayein.",
+        "decision": "answer",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 10.01
+    },
+    {
+      "id": "PQ0053",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI assistant. While I don't have access to your specific location or our current store directory, many of our partner locations do offer in-store pickup depending on item availability at checkout. I would be happy to escalate this to a human support agent who can check local store availability for you. Would you like me to do that?",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 1,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 0,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 1.34
+    },
+    {
+      "id": "PQ0054",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your order for the UrbanThread Slim Fit Jeans placed on October 10th during the sale, I currently don't have access to the specific return window policy details for sale items without checking our internal documents. Could you please clarify if you bought this under a standard or promotional return policy, or would you like me to connect you with a human agent to check your exact return eligibility?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 1.42
+    },
+    {
+      "id": "PQ0056",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your Sootra Canvas Tote Bag purchased on October 5, 2026, I don't have access to our specific return policy documents right now to confirm the exact return window for sale items. Could you please clarify if it was a final sale item, or would you like me to connect you with a human agent who can check your order details?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 9.71
+    },
+    {
+      "id": "PQ0057",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am the AI support assistant for ZentroMart. I'd be happy to help answer your question, but I don't have access to our current company return policy documents right now. To ensure I give you the most accurate information regarding the return window for electronics like the Orbix Fit 3 Pro Smartwatch, would you mind if I escalate this to a human support agent who can check the exact policy for you?",
+        "decision": "escalate",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 1,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 7.88
+    },
+    {
+      "id": "PQ0058",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Aapka order parso deliver hua hai, lekin mere paas Kestrel K7 Smartphone 256 GB ke liye specific return policy documents tak access nahi hai. Kya aap mujhe thoda aur waqt de sakti hain ya main ise customer support team ko escalate kar doon taaki woh aapko exact return window bata sakein?",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 1,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 8.19
+    },
+    {
+      "id": "PQ0059",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. Regarding your refund to UPI started on 17 October 2026, standard UPI refunds typically take a few business days to reflect in your account. However, since I do not have access to specific company documents or your account details to check the exact timeline, I recommend checking our general refund policy or reaching out to our human support team if it takes longer than usual.",
+        "decision": "clarify",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": false,
+        "required_fact_hits": 0,
+        "required_fact_count": 1,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 1.0
+    },
+    {
+      "id": "PQ0060",
+      "turn": null,
+      "mode": "baseline",
+      "model": "gemini-3.5-flash-lite",
+      "result": {
+        "reply": "Hello! I am ZentroMart's AI support assistant. I apologize, but for privacy and security reasons, I cannot share the personal contact information or phone numbers of other customers.",
+        "decision": "refuse",
+        "used_sources": [],
+        "retrieved_chunks": [],
+        "tool_calls": [],
+        "retrieval_mode": "prompt_only"
+      },
+      "checks": {
+        "decision_match": true,
+        "required_fact_hits": 0,
+        "required_fact_count": 0,
+        "forbidden_phrase_hit": false,
+        "gold_retrieved": 0,
+        "gold_count": 2,
+        "tool_names_match": null,
+        "note": "Literal heuristic only; equivalent dates, translations and negation need manual review."
+      },
+      "duration_seconds": 1.34
+    }
+  ]
+}
