@@ -15,8 +15,8 @@ def main():
     for required in ('report.pdf','demo.mp4'):
         if not (root/required).is_file():
             parser.error(f'{required} is missing. Finish the report/demo before making the final ZIP.')
-    files = [root/name for name in ('README.md','.env.example','requirements.txt','run.py','server.py',
-             'evaluate.py','START_VOICEOPS.cmd','report.pdf','demo.mp4')]
+    files = [root/name for name in ('README.md','.env.example','.gitignore','requirements.txt','run.py','server.py',
+             'evaluate.py','START_VOICEOPS.cmd','DEMO_SCRIPT.md','report.pdf','demo.mp4')]
     files += [p for p in (root/'src').rglob('*') if p.suffix in ('.py','.html')]
     files += [p for p in (root/'tests').glob('*.py')]
     files += [p for p in (root/'sample_outputs').rglob('*') if p.is_file() and p.suffix in ('.json','.txt','.wav')]

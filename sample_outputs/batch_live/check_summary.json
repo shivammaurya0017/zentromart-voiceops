@@ -1,0 +1,36 @@
+{
+  "exit_code": 0,
+  "audio_turns": 3,
+  "elapsed_seconds": 30.66,
+  "method": "Downloaded public run.py invoked with its CLI arguments; only client construction reused existing live client objects. No API service was mocked. Existing embedding cache reused. Inputs synthesized by Gnani; independent of the human demo recording.",
+  "typed_credential_prompts_tested": false,
+  "cold_index_rebuild_tested": false,
+  "turns": [
+    {
+      "input": "conversation_01\\01.wav",
+      "decision": "answer",
+      "reply": "I am ZentroMart's AI assistant. Refunds to the ZentroMart Wallet are instant and reach you within 2 hours of initiation.",
+      "audio_status": "success",
+      "error": null,
+      "tool_names": []
+    },
+    {
+      "input": "conversation_01\\02.wav",
+      "decision": "answer",
+      "reply": "Refunds to a credit or debit card typically take 5 to 7 business days to reach you after initiation. Is there anything else I can help you with regarding your refund?",
+      "audio_status": "success",
+      "error": null,
+      "tool_names": []
+    },
+    {
+      "input": "conversation_01\\03.wav",
+      "decision": "escalate",
+      "reply": "A human handover ticket with ID TKT3b55c59350a84b35aac029df4ea6cf81 has been created for you. A human colleague will contact you soon.",
+      "audio_status": "success",
+      "error": null,
+      "tool_names": [
+        "create_ticket"
+      ]
+    }
+  ]
+}
