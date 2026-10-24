@@ -1,0 +1,2 @@
+# Python 3.10+; uses only the Python standard library.
+# Gemini and Gnani are called over their official REST APIs.

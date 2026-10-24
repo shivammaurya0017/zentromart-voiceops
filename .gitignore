@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+.cache/
+.runtime/
+*-key.txt
+data/
+kb/
+practice/
+tools/
+report_unreviewed.pdf
+*_voiceops.zip
+sample_outputs/*_smoke.json
